@@ -2,6 +2,11 @@ body{
     font-family: 'Roboto Condensed', helvetica, sans-serif;
 }
 
+div.rectangle{
+    margin-left: 4em;
+    margin-top: 2em;
+}
+
 div.title{
     width: 100%;
     height: 100%;
@@ -12,11 +17,11 @@ h1{
     font-weight: 400;
     font-size: 2.5em;
     max-width: 800px;
-    text-align: center;
-    margin: 25px, 25px;
+    text-align: left;
+    margin: 100px, 100px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: auto;
+    margin-bottom: 1em;
 }
 
 h2{
@@ -70,14 +75,16 @@ div.linkList{
 
 li.assignmentLink{
     font-weight: 300;
-    font-size: 1.05em;
+    font-size: 5.05em;
     line-height: 130%;
+    color: #7D87E8;
 }
 
 li.assignmentLink > a{
-    color: #000000;
+    color: #7D87E8;
 }
 
 li.assignmentLink > a:hover{
     background-color: #FFFF00; 
+    color: #7D87E8;
 }
